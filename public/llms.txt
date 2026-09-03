@@ -1,0 +1,16 @@
+# Nexavoris
+
+> Nexavoris provides private enterprise AI systems, ERP consulting and implementation (including Odoo), intelligent business automation, and website design for operational businesses — wholesale & distribution, HVAC & field service, construction, retail, manufacturing, and professional services.
+
+Nexavoris combines private AI grounded in a company's own documents, SOPs, and operating knowledge with ERP systems that run day-to-day operations, so employees can ask natural-language questions and trigger real actions against live business data.
+
+## Pages
+
+- [AI Solutions](https://nexavoris.com/ai-solutions): Private AI servers, company knowledge AI, SOP search, employee training AI, document intelligence, and AI business automation.
+- [ERP Solutions](https://nexavoris.com/erp-solutions): ERP consulting, Odoo implementation, CRM & sales, purchasing & inventory, accounting integration, field service, custom modules, data migration, and support.
+- [Website Design](https://nexavoris.com/website-design): Website strategy, design, development, ecommerce, and integrations, with project packages starting at $2,500.
+- [AI + ERP](https://nexavoris.com/ai-erp): How natural-language AI connects to live ERP data across CRM, sales, inventory, purchasing, and operations.
+- [Industries](https://nexavoris.com/industries): Wholesale & distribution, HVAC & field service, construction, retail, manufacturing, and professional services.
+- [Pricing](https://nexavoris.com/pricing): Planning-level packages for AI implementation ($15,000+), ERP implementation ($20,000+), and monthly care plans ($1,250+/month).
+- [About](https://nexavoris.com/about): Who Nexavoris is and how we work.
+- [Contact](https://nexavoris.com/contact): Schedule a consultation.
