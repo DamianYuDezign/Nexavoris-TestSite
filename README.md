@@ -75,9 +75,10 @@ source of truth and stop maintaining both.
 
 ## Sync state (2026-09-03)
 
-Content is synced through origin commit **`a9f4b22` "Restore services pricing
-page"** (the editorial redesign: Manrope/Newsreader fonts, paper/green/terracotta
-theme, product galleries, /website-design, restored /pricing).
+Content is synced through origin commit **`efef4a6` "Update equipment product
+links"** — the editorial redesign (Manrope/Newsreader fonts, paper/green/
+terracotta theme, product galleries, /website-design, restored /pricing) plus
+the /equipment hardware page and the reduced AI/ERP/support pricing.
 
 ## Deliberate divergences from the origin
 
