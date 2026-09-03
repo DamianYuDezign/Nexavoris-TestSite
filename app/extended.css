@@ -8,16 +8,20 @@
 }
 .problem-grid article {
   background: #070d19;
-  padding: 24px;
-  min-height: 130px;
+  min-height: 360px;
+  overflow: hidden;
 }
+.problem-visual{height:230px;overflow:hidden;background:#e7e2d8}
+.problem-visual img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .45s ease}
+.problem-grid article:hover .problem-visual img{transform:scale(1.025)}
+.problem-copy{padding:22px 24px 25px}
 .problem-grid b,
 .detail-grid article > b {
   font: 500 10px var(--font-mono);
   color: #4f6590;
 }
 .problem-grid p {
-  margin: 27px 0 0;
+  margin: 18px 0 0;
   color: #b8c2d3;
   line-height: 1.5;
 }
@@ -81,13 +85,35 @@
   margin-bottom: 55px;
 }
 .module-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.module-cloud span {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--line);
   border: 1px solid var(--line);
+}
+.module-cloud article {
   background: #080f1e;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: stretch;
+}
+.module-cloud article > div {
+  height: 184px;
+  overflow: hidden;
+  background: #e7e2d8;
+}
+.module-cloud img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform .45s ease;
+}
+.module-cloud article:hover img { transform: scale(1.025); }
+.module-cloud span {
+  display: flex;
+  align-items: center;
   padding: 17px 21px;
   color: #b8c4d8;
   font-size: 13px;
@@ -345,6 +371,13 @@
   line-height: 1.7;
   font-size: 14px;
 }
+.detail-grid article.detail-card-image { padding: 0; }
+.detail-visual { height: 210px; overflow: hidden; background: #e7e2d8; }
+.detail-visual img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .45s ease; }
+.detail-card-image:hover .detail-visual img { transform: scale(1.025); }
+.detail-copy { position: relative; padding: 28px 34px 34px; min-height: 245px; }
+.detail-copy > svg { position: absolute; right: 30px; top: 27px; color: #5f93f8; }
+.detail-copy h2 { margin-top: 48px; }
 .mini-cta {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -655,6 +688,7 @@
   .pricing .pricing-grid article:last-child {
     grid-column: 1/-1;
   }
+  .module-cloud { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 640px) {
   .problem-grid,
@@ -675,6 +709,8 @@
     margin: 0 18px 75px;
     padding: 60px 22px;
   }
+  .module-cloud { grid-template-columns: 1fr; }
+  .module-cloud article > div { height: 184px; }
   .split {
     gap: 35px;
   }

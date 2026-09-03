@@ -20,16 +20,7 @@ textarea:focus-visible {
   outline-color: #d89576;
 }
 
-/* 2. Orphaned empty cells in the solution feature grid (7 items / 3 cols
-      leaves two blank tiles; let a lone last item span the row instead) */
-@media (min-width: 901px) {
-  .feature-grid article:last-child:nth-child(3n + 1) { grid-column: 1 / -1; }
-}
-@media (min-width: 641px) and (max-width: 900px) {
-  .feature-grid article:last-child:nth-child(odd) { grid-column: 1 / -1; }
-}
-
-/* 3. Mobile navigation — the origin hides the header nav below 1000px
+/* 2. Mobile navigation — the origin hides the header nav below 1000px
       with no menu and no footer links, leaving pages unreachable. */
 .mobile-nav { display: none; }
 @media (max-width: 1000px) {
@@ -81,7 +72,7 @@ textarea:focus-visible {
   .mobile-menu .mobile-menu-cta:hover { background: #173f36; color: #fff; }
 }
 
-/* 4. Respect the user's reduced-motion preference site-wide */
+/* 3. Respect the user's reduced-motion preference site-wide */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *,

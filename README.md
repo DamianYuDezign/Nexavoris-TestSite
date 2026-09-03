@@ -75,10 +75,11 @@ source of truth and stop maintaining both.
 
 ## Sync state (2026-09-03)
 
-Content is synced through origin commit **`efef4a6` "Update equipment product
-links"** — the editorial redesign (Manrope/Newsreader fonts, paper/green/
-terracotta theme, product galleries, /website-design, restored /pricing) plus
-the /equipment hardware page and the reduced AI/ERP/support pricing.
+Content is synced through origin commit **`bc10289` "Add private AI solution
+imagery"** — the editorial redesign (Manrope/Newsreader fonts, paper/green/
+terracotta theme, product galleries, /website-design, restored /pricing), the
+/equipment hardware page, the reduced AI/ERP/support pricing, and the
+opportunity/ERP-module/AI-solution photography.
 
 ## Deliberate divergences from the origin
 
@@ -94,8 +95,9 @@ future re-sync from `07 Website\nexavoris-website`:
    still has this bug.
 2. **`app/fixes.css` + `components/mobile-nav.tsx`** — mobile menu (origin
    hides the nav below 1000px with no fallback at all), `:focus-visible`
-   outlines, `prefers-reduced-motion` guard, and a fix for the orphaned empty
-   cells in the 7-item solution feature grid. Wired into `layout.tsx`.
+   outlines, and a `prefers-reduced-motion` guard. Wired into `layout.tsx`.
+   (The trailing empty grid tiles on the solution/module grids are the
+   origin's deliberate editorial checkerboard, not a bug.)
 3. **Transparent logo + real favicons** — `nexavoris-logo.png` had a baked
    white background that clashed with the paper header; it is now transparent.
    `favicon.png` / `favicon.ico` / `apple-touch-icon.png` are cropped from the
