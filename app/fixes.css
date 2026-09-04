@@ -25,7 +25,7 @@ textarea:focus-visible {
 .mobile-nav { display: none; }
 @media (max-width: 1000px) {
   .mobile-nav { display: block; margin-left: auto; }
-  header { position: relative; }
+  /* header is position:sticky (theme-v2), which already anchors .mobile-menu */
   .mobile-nav > button {
     display: grid;
     place-items: center;

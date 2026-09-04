@@ -75,11 +75,19 @@ source of truth and stop maintaining both.
 
 ## Sync state (2026-09-03)
 
-Content is synced through origin commit **`bc10289` "Add private AI solution
-imagery"** — the editorial redesign (Manrope/Newsreader fonts, paper/green/
-terracotta theme, product galleries, /website-design, restored /pricing), the
-/equipment hardware page, the reduced AI/ERP/support pricing, and the
-opportunity/ERP-module/AI-solution photography.
+Content is synced through origin commit **`6d90ffe` "Add four-language website
+localization"** (2026-09-04) — the editorial redesign, /equipment page with
+Nexavoris equipment tiers, reduced pricing, sitewide photography, the
+industries client-story redesign, the About redesign, the sticky header, the
+footer contact details (nexavoris.ai domain, Stafford TX address), and the
+client-side en/zh-CN/zh-TW/es localization (`lib/i18n.ts`, `locales/`,
+`components/language-runtime.tsx`).
+
+Note: this copy also aligns `sitemap.ts`/`robots.ts` to **nexavoris.ai** (the
+origin still says nexavoris.com there while its metadataBase is .ai), and keeps
+the transparent `nexavoris-logo.png` (origin's is white-backed and relies only
+on `mix-blend-mode: multiply` — the transparent file renders identically and
+also works where blending is off).
 
 ## Deliberate divergences from the origin
 
